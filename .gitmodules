@@ -1,3 +1,6 @@
 [submodule "gap_sdk"]
 	path = gap_sdk
 	url = git@github.com:pulp-platform/gap-sdk.git
+[submodule "gap_riscv_toolchain_ubuntu"]
+	path = gap_riscv_toolchain_ubuntu
+	url = git@github.com:LorenzoLamberti94/gap_gnu_toolchain.git
