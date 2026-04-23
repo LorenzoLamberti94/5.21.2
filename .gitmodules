@@ -1,0 +1,3 @@
+[submodule "gap_sdk"]
+	path = gap_sdk
+	url = git@github.com:pulp-platform/gap-sdk.git
