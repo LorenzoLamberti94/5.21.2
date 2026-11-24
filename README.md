@@ -28,9 +28,18 @@ jupyter notebook
 2. Configure the application, using build directory "build" --> here you may choose the plaform (board or gvsoc)
 3. Run the target
 
+```
+cmake -B build
+cmake --build build --target menuconfig
+cmake --build build --target run
+```
+## How to run on finsteraarhorn
 
+ssh finsteraarhorn
 
 ```
+source /gap/5.21.2/source_5.21.2.sh 
+cd /gap/5.21.2/gap_sdk/examples/gap9/basic/helloworld
 cmake -B build
 cmake --build build --target menuconfig
 cmake --build build --target run
