@@ -1,4 +1,4 @@
-# gap_sdk_private v5.20.4
+# gap_sdk_private v5.21.2
 
 ## clone
 ```
@@ -20,4 +20,18 @@ conda install ipykernel jupyter
 python -m ipykernel install --user --name gap_sdk_5.21.2 --display-name "gap_sdk_5.21.2"
 # open jupyter as follows
 jupyter notebook
+```
+
+## Run code 
+
+1. Init cmake build directory, named "build"
+2. Configure the application, using build directory "build" --> here you may choose the plaform (board or gvsoc)
+3. Run the target
+
+
+
+```
+cmake -B build
+cmake --build build --target menuconfig
+cmake --build build --target run
 ```
